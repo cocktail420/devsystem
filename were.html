@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<title>my webpage</title>
+
+</head>
+<body>
+	<div  class="container">
+		<div class="alert alert-success">
+			<h2 style="text-align: right;"><strong>HBD</strong></h2>
+			
+			<h2 style="text-align: center;"><strong>MANU</strong></h2>
+	<img class="mySlides" src="image/room.jpg" style="width:30%">		
+  <img class="mySlides" src="image/cake.jpg" style="width:50%">
+<img class="mySlides" src="image/download.jpg" style="width: 50%">
+
+ <img class="mySlides" src="image/cake.jpg" style="width:50%">
+<img class="mySlides" src="image/download.jpg" style="width:50%">
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
+			
+			<h2 style="text-align: left;"><strong>DEVELOPER</strong></h2>
+			
+			</div>
+		</div>
+	</body>
+	</html>

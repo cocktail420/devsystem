@@ -1,0 +1,36 @@
+body{
+	font-family: helvetica;
+	color: black;
+}
+.container{
+	display: grid;
+	grid-template:repeat(1,4fr) /repeat(1,4fr);
+	grid-template-areas:
+	"n n n n" 
+	"b b b c"
+	"f f f f"
+	;
+	grid-gap: 10px;
+}
+
+div#n{
+	grid-area: n;
+	background-color:;
+}
+
+
+
+div#b{
+	grid-area: b;
+	background-color: ;
+}
+div#c{
+	grid-area: c;
+
+	width: 200px;
+	height: 750px
+	}
+footer{
+	grid-area: f;
+	background-color: orange;
+}
